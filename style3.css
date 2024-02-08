@@ -4,7 +4,7 @@ body{
 #media
 {
     
-    background-image: url('/bg2.jpeg');
+    background-image: url('bg2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     display: none;
@@ -62,7 +62,7 @@ body{
   }
   #b1{
     margin-top:0%;
-    background-image: url('C:/TravelWeb/Travel/imgs/tri.jpg');
+    background-image: url('tri.jpg');
     background-size: cover;
     border: none;
     width: 50px;
