@@ -1,0 +1,274 @@
+body{
+  margin:0%;
+}
+#media
+{
+    
+    background-image: url('/bg2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    height:35%;
+    padding: 3%;
+    padding-left: 5%;
+    transition: width 2s;
+}
+
+
+#s1
+{
+   width: 40%;
+   height: 30%;
+   text-align: left;
+   color: rgb(228, 219, 219);
+   padding-left: 3%;
+   padding-right: 3%;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 0.9;
+}
+#s2{
+    width: 40%;
+    height: 30%;
+    text-align: left;
+    color:  rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left:3%;
+} 
+
+#media .fa {
+    padding: 10px;
+    padding-top: 13px;
+    margin: 5px;
+    font-size: 15px;
+    width: 25px;
+    height:25px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(159, 183, 171, 0.148);
+  }
+  #media .fa:hover{
+    background-color: rgb(255, 255, 255);
+    color:aquamarine;
+  }
+
+  #btn_div{
+    text-align: center;
+  }
+  #b1 .fa{
+    color: rgb(112, 122, 130);
+  }
+  #b1{
+    margin-top:0%;
+    background-image: url('C:/TravelWeb/Travel/imgs/tri.jpg');
+    background-size: cover;
+    border: none;
+    width: 50px;
+    height: 30px;
+  }
+  #b1:hover .fa{
+    color:aliceblue;
+  }
+  #logo_div{
+    text-align: center;
+    padding:35px 0px 40px 0px;
+  }
+  
+  #logo:hover{
+    rotate: 10deg;
+  }
+  #logo_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color:rgb(116, 185, 162);
+    padding-top:0%;
+    margin-top:2px;
+  }
+  #logo_p:hover{
+    color:rgb(145, 215, 192);
+  }
+  #nxt_div{
+    text-align: center;
+  }
+  #nxt_div a,i{
+    text-decoration: none;
+    padding: 5px;
+    padding-top:3px;
+    font-size: 13px;
+  }
+  #nxt_div .fa{
+    color: rgb(214, 207, 207);
+  }
+
+  #nxt_div a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 103, 103);
+    
+  }
+  #nxt_div a:hover{
+    color:rgb(116, 185, 162);
+  }
+  #work_a:hover #work_span{
+    display:block;
+  }
+  #abt_a:hover #abt_span{
+    display:block;
+  }
+
+
+  #work_span{
+    display:none;
+    position: absolute;
+    left:40%;
+    text-align: left;
+  }
+  
+  ul{
+    padding-top:10px;
+    list-style: none;
+    color: rgb(163, 157, 157);
+    background-color: rgb(47, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+  }
+
+  li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3px;
+    margin-bottom:10px;
+  }
+
+  #work_span ul{
+    padding:12px;
+    width:120px;
+    height:130px;
+  }
+  #work_span li, #abt_span li{
+    padding-left:10px;
+    padding-top:5px;
+  }
+
+  #abt_span{
+    display:none;
+    position: absolute;
+    left:60%;
+    text-align: left;
+  }
+  
+  #abt_span ul{
+    padding-left:10px;
+    width:100px;
+    height:100px;
+  }
+  #work_span li:hover{
+    color: rgb(116, 185, 162);
+  }
+  #abt_span li:hover{
+    color: rgb(116, 185, 162);
+  }
+
+  #pf{
+    display:flexbox;
+    margin-top: 50px;
+  }
+  #pf img{
+    width:30%;
+    height:75%;
+    padding-left:2%;
+    padding-bottom: 20px;
+  }
+
+  #pf p{
+    text-align: center;
+    color:rgb(104, 98, 98);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  #pf p a{
+    color: rgb(106, 173, 151);
+    text-decoration: none;
+  }
+  #vdo_vc img{
+    width:30%;
+    margin-top:10%;
+    padding-left:2.5%;
+    padding-bottom: 20px;
+    margin-bottom:10%;
+  }
+  #vdo_vc img:hover{
+    opacity:15%;
+  }
+
+  #ftr_1{
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 100px;
+
+  }
+  #ftr_1 p{
+    width: 60%;
+    padding:20px;
+    float: left;
+    color:rgb(160, 153, 153);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+  }
+  #ftr_1 a{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    color:rgb(176, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin:10px;
+  }
+
+  #ftr_1 a:hover{
+    color:rgb(51, 49, 49);
+  }
+
+  #ftr{
+    width:100%;
+    height:30%;
+    background-color:rgb(132, 199, 176);
+    display: inline-flex;
+    padding-top:50px;
+  }
+
+  #ftr_2{
+    text-align: center;
+  }
+  
+  #ftr .fa {
+    padding: 10px;
+    padding-top: 13px;
+    margin: 5px;
+    font-size: 15px;
+    width: 25px;
+    height:25px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(214, 230, 221, 0.546);
+  }
+  #ftr .fa:hover{
+    background-color: rgb(255, 255, 255);
+    color:aquamarine;
+  }
+
+  #ftr a{
+    margin-right:4%;
+    margin-left:4%;
+    
+  }
+  
+
+  
+
+  
+

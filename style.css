@@ -1,0 +1,457 @@
+body{
+    margin:0%;
+  }
+a{
+    text-decoration: none;
+    color: rgb(27, 28, 28);
+}
+#hdr1{
+    background-color: rgb(47, 120, 120);
+    padding:1px;
+    color: aliceblue;
+    height:30px;
+}
+#hdr1 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#srch_hdr{
+    display: none;
+    margin:10px;
+    
+}
+#srch_hdr input{
+    width:90%;
+    height:8%;
+    margin:10px;
+}
+
+#log_in{
+    margin-top: 0%;
+    padding:5px;
+    height:5%;
+    background-color: rgb(232, 239, 236);
+}
+
+#log_in button{
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin:10px;
+    border: none;
+    background-color: rgb(232, 239, 236);
+}
+
+#log_in a{
+    color: rgb(79, 75, 75);
+    float:right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align:center;
+    margin:5px;
+    padding-top:2px;
+}
+
+#log_in #cart{
+    border: 2px solid black;
+    width:70px;
+    height:16px;
+}
+
+#acct{
+    padding-left: 5px;
+    border-left: 1px solid  rgb(65, 61, 61);
+}
+#cart:hover{
+    background-color: rgb(65, 61, 61);
+    color: rgb(225, 228, 231);
+}
+#logo_div{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#menu{
+    text-align: center;
+    margin-top:2%;
+}
+
+#menu a{
+    color: rgb(79, 75, 75);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left:2%;
+    margin-right:2%;
+    height:5%;
+    padding-top:20px;   
+    
+}
+
+#menu span{
+    position: absolute;
+    z-index: 1;
+    width:12%;
+    background-color: rgb(255, 255, 255);
+    border-top: 5px solid rgb(177, 176, 176);
+    border-left:0.1px solid rgb(177, 176, 176);
+    border-right:0.1px solid rgb(177, 176, 176);
+    border-bottom:0.1px solid rgb(177, 176, 176);
+    padding:0px 10px 10px 10px;    
+}
+
+#menu ul{
+    padding: 0px;
+}
+#menu ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+#lim_span{
+    left:14%;
+    display: none;
+}
+#lim_span_a:hover #lim_span{
+    display: block;
+}
+#gift_span{
+    left:27%;
+    display: none;
+}
+#gift_span_a:hover #gift_span{
+    display: block;
+}
+#home_span{
+    left:35%;
+    display: none;
+
+}
+#home_span_a:hover #home_span{
+    display: block;
+}
+#lifestyl_span{
+    left:47%;
+    display: none;
+}
+#lifestyl_span_a:hover #lifestyl_span{
+    display: block;
+}
+#collab_span{
+    left:80.5%;
+    display: none;
+
+}
+#menu span li:hover{
+    color: rgb(112, 197, 169);
+}
+#collab_span_a:hover #collab_span{
+    display: block;
+}
+
+.mySlides{
+    width: 95%;
+    height: 75%;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    padding: 30px;
+    
+}
+#is_d1{
+    background-image: url('https://www.unpostedletters.in/cdn/shop/files/VdayFrame_a934b580-6595-4b2e-b53f-d181e62679f7_1600x.jpg?v=1704949573');
+    color: rgb(244, 245, 247);
+}
+#is_d1 a{
+    color: rgb(244, 245, 247);
+    margin: 10px;
+}
+#is_d1 .shop{
+    border: 2px solid white;
+}
+.shop{
+    width:100px;
+    font-size: 3px;
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(6, 6, 6);
+}
+
+.shop:hover{
+  border: 2px solid rgb(102, 196, 202);
+  color: rgb(102, 196, 202);
+
+}
+#is_d2{
+    background-image: url('https://www.unpostedletters.in/cdn/shop/files/header_1800x.jpg?v=1698481920');
+}
+#is_d2 a{
+    color: rgb(27, 28, 28);
+    float: right;
+}
+#is_d2_d{
+   position: absolute;
+    right: 10px; bottom: 0px;
+    width: 400px;
+    height:150px;
+}
+
+#is_d3{
+    background-image: url('https://www.unpostedletters.in/cdn/shop/files/mainHome3_1600x.jpg?v=1652512014');
+}
+
+#is_d3 a{
+    color: rgb(27, 28, 28);
+}
+
+.mySlides {display: none}
+
+#img_slides{
+    max-width: 100%;
+    position: relative;
+  }
+
+.dot {
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot:hover {
+    background-color: #717171;
+  }
+
+  
+  .div_2{
+    margin-top: 2%;
+    display: inline-flex;
+    
+  }
+  .div_2d img,p{
+    width:94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+  }
+
+
+    
+  #img_d1:hover #img_d1.img{
+    src:url('https://www.unpostedletters.in/cdn/shop/files/2-2_6ddc1af6-066c-4982-809a-ad100e960675_394x.jpg?v=1699895639');
+  }
+  #img_d2:hover #img_d2.img{
+    src:url('https://www.unpostedletters.in/cdn/shop/files/2-2_6ddc1af6-066c-4982-809a-ad100e960675_394x.jpg?v=1699895639');
+  }
+
+  .divd_4{
+    margin-top: 4%;
+    display: inline-flex;
+  }
+
+  .divd_4 .txt_d, #div_4{
+    width:100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+  }
+  .txt_d{
+    padding: 10%;
+    text-align: center;
+  }
+  #div_4{
+    display: inline-flex;
+  }
+  #div_4 #img_d1, #img_d2{
+    width:100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+  }
+
+  .imgs_4{
+    margin-top: 2%;
+    display: inline-flex;
+  }
+
+  .imgs_4 div{
+    width:100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+  }
+  .div_5{
+    margin: 2%;
+    display: inline-flex;
+    
+  }
+
+  .div_5_d{
+    display: block;
+    width:50%;
+   
+  }
+  .div_5_d img,.div_5_d a,.div_5_d p{
+    width:94%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  .div_5_d_txt{
+    padding-top:15%;
+    text-align: center;
+  }
+
+  
+.div6_hdr{
+    margin-top:1.5%;
+    width:96%;
+    display: inline-flex;
+    
+}
+  .div6_hdr p{
+    display:block;
+    width:85%;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #545252;
+   
+  }
+  .div6_hdr a{
+    display:block;
+    padding:1px;
+    width:8.5%;
+    height:10%;
+    margin-top:3%;
+    text-align:center;
+    font-size: 16px;
+    border:2px solid rgb(29, 26, 26);
+  }
+  
+  .imgs_5{
+    margin-top: 2%;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    display: inline-flex;
+  }
+
+  .imgs_5 div{
+    width:98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+  }
+  .imgs_5 p, .imgs_4 p{
+    font-family: "Avenir Next Rounded",sans-serif;
+    font-size: 10px; 
+  }
+
+  .imgs_5 .caption, .imgs_4 .caption{
+    font-size: 15px;
+  }
+
+  .caption:hover{
+    color: rgb(102, 196, 202);
+  }
+  hr{
+    margin:3%;
+    color:#a8a5a5
+  }
+  #logo_final{
+    margin:2%;
+    text-align: center;
+  }
+  .read_d{
+    margin:2%;
+    text-align:center;
+  }
+
+  .ftr_d{
+    color: #545252;
+  }
+
+  #insta{
+    display: inline-flex;
+    width:100%;
+    height: 37%;
+  }
+  #insta img{
+    display:block;
+    width:16.6%;
+  }
+
+  #footer{
+    display:inline-flex;
+    width:100%;
+    background-color: #cdcbc0;
+    color:rgb(90, 88, 86);
+    margin-top:5%;
+  }
+  .footer_d{
+    display:block;
+    width:33%;
+    padding-top:6%;
+    padding-bottom:6%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .footer_d p{
+    font-size: 5px; 
+    color: #545252;
+  }
+  .footer_d button{
+    margin-left: 5px;
+    background-color: #3d3b3b;
+    color: #bbb;
+  }
+  #fdd{
+    display:inline-flex;
+    text-align: center;
+    margin-top:2%;
+    margin-left:10%;
+    width:100%;
+    height:40px;
+  }
+  #fdd input{
+    width:70%;
+    border: 2px solid rgb(63, 62, 62);
+    border-radius: 5px;
+    padding: 4px;
+  }
+  #fdd button{
+    font-size: 2px; 
+  }
+
+  .footer_d a{
+    padding-left:5px;
+  }
+ 
+
+  
+  
+  
+
+
+

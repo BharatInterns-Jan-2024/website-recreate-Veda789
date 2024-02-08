@@ -1,0 +1,407 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="hdr1">
+            <p>For international order, send a mail to info@unpostedletters.in</p>
+        </div>
+        <div id="srch_hdr">
+            <i class="fa fa-search"></i>
+            <input placeholder="Search our store" width="80%">
+            <button onclick="closesrch()">X</button>
+        </div>
+        <div id="log_in"> 
+            <button onclick="opensrch()"><i class="fa fa-search"></i> Search</button>
+            <a id="cart"><i class="fa fa-shopping-bag"></i> 0 Cart</a>
+            <a id="acct">Create account</a>
+            <vr>
+            <a>Log in</a>
+        </div>
+        <div id="logo_div">
+            <img src="https://www.unpostedletters.in/cdn/shop/files/UnpostedLetters_Logo_560x.png?v=1614316584" width="275px" height="50px">
+        </div>
+        <div id="menu">
+            <a href="" id="lim_span_a"><b>LIMITED EDITION </b><i class="fa fa-caret-down"></i>
+            <span id="lim_span">
+                <ul>
+                    <li><b>ART CALENDAR 2024</b></li>
+                    <li><b>UMBRALLA NECKLACE</b></li>
+                    <li><b> WOODEN DOLLS </b></li>
+                    <li><b>TIME SERIES</b></li>
+                </ul>
+            </span></a>
+            <a href="#" id="gift_span_a"><b>GIFTING </b><i class="fa fa-caret-down"></i>
+            <span id="gift_span">
+                <ul>
+                    <li><b>WISH IN A BOX</b></li>
+                    <li><b>WISHING CARDS</b></li>
+                    <li><b>GIFT CARD</b></li>
+                </ul>    
+            </span></a>
+            <a href="#" id="home_span_a"><b>HOME DECOR </b><i class="fa fa-caret-down"></i>
+            <span id="home_span">
+                <ul>
+                    <li><b>ART PRINT</b></li>
+                    <li><b>CANVAS FRAME</b></li>
+                    <li><b> MINI ART </b></li>
+                    <li><b>FRIDGE MAGNETS</b></li>
+                </ul>    
+            </span></a>
+            <a href="#" id="lifestyl_span_a"><b>LIFE STYLE </b><i class="fa fa-caret-down"></i>
+            <span id="lifestyl_span">
+                <ul>
+                    <li><b>GLASS MOBILE CASES</b></li>
+                    <li><b>HARD MOBILE CASES</b></li>
+                    <li> <b>MUGS </b></li>
+                    <li><b>BADGES</b></li>
+                    <li> <b>MOUSE PADS</b> </li>
+                    <li><b>TUMBLER BOTTLE</b></li>
+                </ul>    
+            </span></a>
+            <a href="#"><b>BOOK</b></a>
+            <a href="#"><b>ABOUT</b></a>
+            <a href="#"><b>BLOG</b></a>
+            <a href="#" id="collab_span_a"><b>COLLAB </b><i class="	fa fa-caret-down"></i>
+            <span id="collab_span">
+                <ul>
+                    <li><b>BINGO</b></li>
+                    <li><b>KALAVAI</b></li>    
+                </ul>    
+            </span></a>
+        </div>
+
+        <div id="img_slides">
+            <div id="is_d1" class="mySlides">
+                  <a href="" style="font-size: 35px;">VALENTINE'S DAY </a><br>
+                  <a href="" style="font-size: smaller;">Handpicked collection</a><br><br>
+                  <a href="" class="shop">SHOP NOW</a>
+            </div>
+            <div id="is_d2" class="mySlides">
+                <div id="is_d2_d">
+                    <a href="" style="font-size: 35px;">ART CALENDAR'24</a><br><br>
+                    <a href="" class="shop">SHOP NOW</a>
+                </div>   
+            </div>
+            <div id="is_d3" class="mySlides">
+                  <a href="" style="font-size: 35px;">THE BOOK</a><br>
+                  <a href="" style="font-size: smaller;">Unposted Letters book by Vimal Chandran</a><br><br>
+                  <a href="" class="shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+        <div class="div_2">
+            <div class="div_2d">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/UnpostedLetters_Slider2Mobile_4c4d8dbf-6201-4876-8f47-1e988a97792a_800x.jpg?v=1614316922">
+                <p>Hard Phone Cases</p>
+            </div>
+            <div class="div_2d">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/Unposted_Letters_grid3_Glasscovers_copy_800x.jpg?v=1614320166">
+                <p>Glass Phone Cases</p>
+            </div>        
+        </div>
+
+        <div class="div_2">
+            <div class="div_2d">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/Unposted_Letters_Art_Prints_590x.JPG?v=1615928706">
+                <p>Art Prints</p>
+            </div>
+            <div class="div_2d">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/Unposted_Letters_grid2_590x.jpg?v=1614316993">
+                <p>Limited Edition</p>
+            </div> 
+            <div class="div_2d">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/5web_b6d98ccd-f389-4f6e-936b-1b63187fed3a_590x.jpg?v=1614322074">
+                <p>Lifestyle Products</p>
+            </div>  
+        </div>
+        <hr>
+        <div class="divd_4">
+            <div class="txt_d">
+                <a href="" style="font-size: 35px;">THE BOOK</a><br>
+                <a href="" style="font-size: smaller;">Unposted Letters book by Vimal Chandran</a><br><br>
+                <a href="" class="shop">SHOP NOW</a>
+            </div>
+            <div id="div_4">
+                <div id="img_d1">
+                    <img src="https://www.unpostedletters.in/cdn/shop/files/1-1_c674f39a-a4b7-405a-b079-a4cc3d1b9798_720x.jpg?v=1698426120" width="100%" >
+                    <p>Limited Edition</p>
+                </div> 
+                <div id="img_d2">
+                    <img src="https://www.unpostedletters.in/cdn/shop/files/2-1_01ed9ae9-75a4-4cd1-956e-87a668218eae_720x.jpg?v=1698480254" width="100%">
+                    <p>Lifestyle Products</p>
+                </div>  
+            </div>
+        </div>
+
+        
+
+        <div class="imgs_4">
+            <div id="id1">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/2-3_20348298-4a15-4b95-8bb5-acfba9c936ee_810x.jpg?v=1699895446" width="100%" >
+                <p class="caption">Art Calendar '24 [Full Edition + Unposted letters Book]</p>
+                <p><b>Rs. 5250.00</b></p>
+            </div> 
+            <div id="id2">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/UnpostedLetters_Book3_810x.jpg?v=1652514104" width="100%">
+                <p class="caption">Unposted Letters Book by Vimal Chandran</p>
+                <p><b>Rs. 2599.00</b></p>
+            </div>  
+            <div id="id3">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/3-1_c7aaacd7-d3a8-4532-8d54-8e74468d50ba_768x.jpg?v=1569149839" width="100%" >
+                <p class="caption">B'day wish in a box - Fly a bit more</p>
+                <p><b>Rs. 1599.00</b></p>
+            </div> 
+            <div id="id4">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/4-1_65e694a9-f68c-4e0a-8155-8656b52d08bc_768x.jpg?v=1569149837" width="100%">
+                <p class="caption">B'day wish in a box - All the flavors</p>
+                <p><b>Rs. 1599.00</b></p>
+            </div>  
+        </div>
+
+        <hr>
+
+        <div class="div_5">
+            <div class="div_5_d">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/UnpostedLettersCanvasFrames_800x.jpg?v=1614318546">
+            </div> 
+            <div class="div_5_d div_5_d_txt"> 
+                <a href="" style="font-size: 20px;">Canvas Frames</a><br>
+                <p><a href="" style="font-size: 15px;">Unleash the beauty of Unposted Letter premium canvas frames!</a></p>
+                <a href="" class="shop" style="font-size: 3px;">Shop Canvas Frames</a>
+            </div>   
+        </div>
+        <hr>
+        <div class="div_5"> 
+            <div class="div_5_d div_5_d_txt"> 
+                <a href="" style="font-size: 20px;">Mini Art Frames</a><br>
+                <p><a href="" style="font-size: 15px;">Small <i>is</i> beautiful</a></p>
+                <a href="" class="shop" style="font-size: 3px;">SHOP MINI ART</a>
+            </div>  
+            <div class="div_5_d">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/MiniArt_UnpostedLetters_1180x.jpg?v=1653588720">
+            </div> 
+        </div>
+        <hr>
+        <div class="div_5">
+            <div class="div_5_d">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/Main_cover_1080x.jpg?v=1646415173">
+            </div> 
+              
+            <div class="div_5_d div_5_d_txt"> 
+                <a href="" style="font-size: 20px;">Canvas Frames</a><br>
+                <p><a href="" style="font-size: 15px;">Unleash the beauty of Unposted Letter premium canvas frames!</a></p>
+                <a href="" class="shop" style="font-size: 3px;">Shop Canvas Frames</a>
+            </div>     
+        </div>
+        <hr>
+        <div class="div_5">
+            <div class="div_5_d div_5_d_txt"> 
+                <a href="" style="font-size: 20px;">Canvas Frames</a><br>
+                <p><a href="" style="font-size: 15px;">Shopping for someone else but not sure what to get them? Send them the gift of choice with an Unposted Letters Gift Card.</a></p>
+                <a href="" class="shop" style="font-size: 3px;">Shop Canvas Frames</a>
+            </div>    
+            <div class="div_5_d">
+                <img src="https://www.unpostedletters.in/cdn/shop/files/Gift_Card_716x.jpg?v=1614319964">
+            </div>        
+        </div>
+
+        <hr>
+
+        <div class="div6_hdr">
+            <p>Art Prints</p>
+            <a href="" class="shop">VIEW MORE</a>
+        </div>
+
+        <div class="imgs_5">
+            <div id="id1">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/22-2_394x.jpg?v=1527452961" width="100%" >
+                <p class="caption">The way to light up</p>
+                <p>from <b>Rs. 399.00</b></p>
+            </div> 
+            <div id="id2">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/21-2_30bd3393-8b26-4d71-9c4e-0ae26a8bc4a5_394x.jpg?v=1527452827" width="100%">
+                <p class="caption">Love peace and hope</p>
+                <p>from <b>Rs. 399.00</b></p>
+            </div>  
+            <div id="id3">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/23-2_394x.jpg?v=1527453091" width="100%" >
+                <p class="caption">In my mind I call you</p>
+                <p>from <b>Rs. 399.00</b></p>
+            </div> 
+            <div id="id4">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/19-1_12c3199f-9147-4881-820d-37298776fb1e_394x.jpg?v=1504258596" width="100%">
+                <p class="caption">Be a little sunshine</p>
+                <p>from <b>Rs. 399.00</b></p>
+            </div>  
+        </div>
+
+        <div class="div6_hdr">
+            <p>Badges</p>
+            <a href="" class="shop">VIEW MORE</a>
+        </div>
+
+        <div class="imgs_5">
+            <div id="id1">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/1-1_941f64e5-8d50-4fe5-8ed8-00d359065a0a_394x.jpg?v=1599152785" width="98%" >
+                <p class="caption">Illustrated Badge - Light up the world</p>
+                <p><b>Rs. 399.00</b></p>
+            </div> 
+            <div id="id2">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/5-1_ddb81076-e060-467f-b4e0-239a47536476_394x.jpg?v=1599152629" width="98%">
+                <p class="caption">Illustrated Badge - 'Love peace and hope'</p>
+                <p><b>Rs. 399.00</b></p>
+            </div>  
+            <div id="id3">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/6-1_12cc9d1c-bc73-4c6e-a186-3daaf3782649_394x.jpg?v=1599152476" width="98%" >
+                <p class="caption">Illustrated Badge - 'Endless possibilities'</p>
+                <p><b>Rs. 399.00</b></p>
+            </div> 
+            <div id="id4">
+                <img src="https://www.unpostedletters.in/cdn/shop/products/7-1_e2ef2e00-a5c8-4aa2-b6e0-e84a16dec5f5_394x.jpg?v=1599152711" width="98%">
+                <p class="caption">Illustrated Badge - 'Present tense'</p>
+                <p><b>Rs. 399.00</b></p>
+            </div>  
+        </div>
+        <hr>
+        <div id="logo_final">
+            <img src="https://www.unpostedletters.in/cdn/shop/files/STAMPYELLOW_170x.png?v=1614317317">
+        </div>
+        <div class="read_d">
+            <img src="https://www.unpostedletters.in/cdn/shop/files/made_in_India_c28648aa-ae14-4422-9712-b032428e14c6_1600x.jpg?v=1614317329" width="100%">           
+        </div>
+        <div class="read_d">
+            <a id="read_a" class="shop" style="margin-top:5%;">READ OUR STORY</a>
+        </div>
+        <hr>
+
+        <div class="div6_hdr">
+            <p>Journal</p>
+            <a href="" class="shop" style="width:12%; font-size: 12px;">READ JOURNAL</a>
+        </div>
+
+        <div class="div_5 ftr_d">
+            <div class="div_5_d"> 
+                <img src="https://www.unpostedletters.in/cdn/shop/articles/Unpostedletters_Calendar_2021-More2_1024x_copy_900x.jpg?v=1672061715">
+                <p style="font-size: 20px; margin-bottom:3px;">Art Calendar 2023 - FolkSciFi</p>
+                <p style="font-size: 15px; margin-top:1px;">The 'Folk Sci-Fi' art calendar for 2023 is a must-have for any art lover or collector.</p>
+                <p style="text-align: center;"><a class="shop" style="font-size: 3px;">READ MORE</a></p>
+            </div>    
+            <div class="div_5_d">
+                <img src="https://www.unpostedletters.in/cdn/shop/articles/Unpostedletters_Calendar_2021-More2_900x.jpg?v=1628668418">
+                <p style="font-size: 20px;margin-bottom:3px;">Art Calendar 2021 - Songs for the Birds</p>
+                <p style="font-size: 15px;margin-top:1px;">Our flagship product of the year 2021 - The art calendar , 'Songs for the Birds' was a huge hit among the art enthusiasts around the globe.</p>
+                <p style="text-align: center;"><a class="shop" style="font-size: 3px;">READ MORE</a></p>
+            </div>        
+        </div>
+
+        <hr>
+        <div><p style="text-align: center;font-size: 25px;">Instagram</p></div>
+        <div id="insta">
+            <img src="https://www.unpostedletters.in/cdn/shop/files/Unposted_Letters_Mobile_cover_295x.JPG?v=1615928782">
+            <img src="https://www.unpostedletters.in/cdn/shop/files/Unposted_Letters_Art_print_295x.JPG?v=1615928782">
+            <img src="https://www.unpostedletters.in/cdn/shop/files/Unposted_Letters_Mobile_covers_295x.JPG?v=1615928782">
+            <img src="https://www.unpostedletters.in/cdn/shop/files/21more-3_295x.jpg?v=1613702702">
+            <img src="https://www.unpostedletters.in/cdn/shop/files/5D47E100-6C36-45FA-85B3-DCE19BE80370_295x.JPG?v=1615928782">
+            <img src="https://www.unpostedletters.in/cdn/shop/files/94435F98-4231-4CEA-8F53-9738973D84B0-27775-00001F43711104E3_295x.JPG?v=1615928782">
+        </div>
+        <div class="read_d">
+            <a id="read_a" class="shop" style="margin-top:5%;"><b>FOLLOW US</b></a>
+        </div>
+
+        <div id="footer">
+
+            <div class="footer_d">
+                <p style="font-size: 20px;color:rgb(63, 63, 61);">Newsletter</p>
+                <p style="font-size: 15px;">Be the first to hear from us</p>
+                <div id="fdd">
+                    <input placeholder="email@example.com" style="font-size: 3px;">
+                    <button>GO</button>
+                </div>
+    
+
+            </div>
+            <div class="footer_d">
+                <p style="font-size: 19px;color:rgb(63, 63, 61);">Info</p>
+                <p>Track Order</p>
+                <p>FAQ</p>
+                <p>Refund & Return</p>
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+                <p> Refund policy</p>
+                <br><br>
+                <p>© 2024, Unposted Letters </p>
+                <p>Powered by Shopify</p>      
+            </div>
+            <div class="footer_d">
+                <p style="font-size: 19px;color:rgb(63, 63, 61);">Get in touch</p>
+                <p style="font-size: 10px;"><u>Contact Us</u></p>
+                <p  style="font-size: 25px;margin-top:10px;">    
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a> 
+                    <a href="#" class="fa fa-pinterest"></a> 
+                </p>
+                
+            </div>
+
+        </div>
+        
+
+      
+
+
+        
+
+
+        
+        
+
+        
+
+        
+
+
+
+
+        
+        
+
+    </body>
+</html>
+<script>
+    function closesrch(){
+        var x=document.getElementById("srch_hdr");
+        x.style.display = "none";
+    }
+    function opensrch(){
+        var x=document.getElementById("srch_hdr");
+        x.style.display = "block";
+    }
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);}
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+    }
+</script>
